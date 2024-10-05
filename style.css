@@ -154,8 +154,9 @@ html {
 #project1 p{
     color:white;
     font-size: 19px;
-    margin: 0px 45px;  
+    margin: 0px 200px;  
     line-height: 1.75;
+    max-width: 480px;
 }
 
 #project2 h2{
@@ -169,8 +170,9 @@ html {
 #project2 p{
     color:white;
     font-size: 19px;
-    margin: 0px 45px;  
+    margin: 0px 200px;  
     line-height: 1.75;
+    max-width: 480px;
 }
 
 #project3 h2{
@@ -184,8 +186,9 @@ html {
 #project3 p{
     color:white;
     font-size: 19px;
-    margin: 0px 45px;  
+    margin: 0px 200px;  
     line-height: 1.75;
+    max-width: 480px;
 }
 /* End Projects*/
 
@@ -193,30 +196,25 @@ html {
 #contact-me{
     background-color: #18303D;
     color:white;
-    text-align: center;
 }
+
 #contact-me h1{
     font-size: 4.5rem;     
     font-family: cursive;
     background-color: #03A66A;
     padding: 15px;
+    text-align: center;
 }
-form{
-    padding: 15px;
-}
-form label {
-    font-size: 19px;
-    color: white; 
-    margin-bottom: 8px;
-}
+
 form input[type="submit"] {
     background-color: #03A66A; 
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    font-size: 19px;
+    font-size: 1rem;
 }
+
 /*End Contact me*/
 
 /* Footer*/
