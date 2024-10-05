@@ -91,7 +91,7 @@ html {
 
 /* About me*/
 #about{
-    background-color: #18303D;
+    background-image: linear-gradient(#18303D, #038C8C);
 }
 
 #about h1{
@@ -131,7 +131,7 @@ html {
 
 /* Projects*/
 #projects{
-    background-color: #18303D;
+    background-image: linear-gradient(45deg,#18303D, #038C8C);
 }
 
 #projects h1{
@@ -154,9 +154,9 @@ html {
 #project1 p{
     color:white;
     font-size: 19px;
-    margin: 0px 200px;  
+    margin: 0px 400px;  
     line-height: 1.75;
-    max-width: 480px;
+    text-align: center;
 }
 
 #project2 h2{
@@ -170,9 +170,9 @@ html {
 #project2 p{
     color:white;
     font-size: 19px;
-    margin: 0px 200px;  
+    margin: 0px 400px;  
     line-height: 1.75;
-    max-width: 480px;
+    text-align: center;
 }
 
 #project3 h2{
@@ -186,9 +186,10 @@ html {
 #project3 p{
     color:white;
     font-size: 19px;
-    margin: 0px 200px;  
+    margin: 0px 400px;  
     line-height: 1.75;
-    max-width: 480px;
+    text-align: center;
+    padding-bottom: 15px;
 }
 /* End Projects*/
 
@@ -206,6 +207,31 @@ html {
     text-align: center;
 }
 
+form {
+    width: 100%; 
+    max-width: 600px;
+    margin: 0 auto; 
+    padding: 50px;
+    background-image: linear-gradient(#18303D, #038C8C);
+    border-radius: 10px; 
+}
+
+form label {
+    display: block;  
+    font-size: 1rem; 
+    color: white; 
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: 15px;
+    border-radius: 5px; 
+    font-size: 1rem; 
+}
+
 form input[type="submit"] {
     background-color: #03A66A; 
     color: white;
@@ -213,6 +239,7 @@ form input[type="submit"] {
     border: none;
     border-radius: 5px;
     font-size: 1rem;
+    margin: 0px 200px;
 }
 
 /*End Contact me*/
