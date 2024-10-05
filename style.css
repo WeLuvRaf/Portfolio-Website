@@ -12,15 +12,47 @@ html {
 #header {
     display: flex;
     justify-content: space-between; 
-    align-items: center; 
-    padding: 10px 20px; 
+    padding: 25px 20px; 
     top: 0;
     left: 0; 
     background-color: #18303D; 
-    position: fixed; 
-    width: 100%; 
-    z-index: 500; 
-    font-size: large;
+    position: fixed;  
+    width: 100%;
+}
+
+.header-container {
+    display: flex;     
+    width: 100%;                      
+}
+
+.logo h1 {
+    font-size: 30px;                 
+    color: white;                    
+    margin: 0;   
+    white-space: nowrap;                     
+}
+
+.navList {
+    display: flex;                    
+    justify-content: flex-end;       
+    align-items: center;
+    width: 100%;
+}
+.navList ul {
+    list-style: none;                
+    display: flex;           
+}
+.navList ul li {
+    margin-left: 20px;
+} 
+
+.navList a{
+    color:white;
+    background-color: #03A66A;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    
 }
 /* End Header section */
 
@@ -29,22 +61,179 @@ html {
     background-image: url('imgs/Aurora.jpg');
     background-size: cover; 
     background-position: center; 
-    width: 100vw;
+    
     height: 100vh;
     display: flex; 
     justify-content: center; 
     align-items: center; 
 
 }
-    /* name */
+
 #name{
     text-align: center;
-}
-#name h1 {
     font-size: 5rem;  
-    color: #000000; 
+    color: white; 
     margin: 25px 25px;  
     font-family: cursive;
 }
-    /* End name */
+
+.btn {
+    background-color: #03A66A;
+    color: white;
+    font-size: 22px; 
+    font-family: cursive;
+    padding: 15px;
+    margin: 25px 25px ;
+    border: none;
+    border-radius: 5px;
+}
 /* End Home */
+
+/* About me*/
+#about{
+    background-color: #18303D;
+}
+
+#about h1{
+    font-size: 4.5rem;  
+    color: white;   
+    font-family: cursive;
+    text-align: center;
+    background-color: #03A66A;
+    padding: 15px;
+}
+#about h2{
+    font-size: 3rem;  
+    color: white;   
+    font-family: cursive;
+    text-align: center;
+    padding: 15px;
+}
+#Description{
+    padding: 15px;
+    padding-bottom: 50px;
+    display: flex;
+    text-align: left;
+}
+
+#Description p{
+    color:white;
+    font-size: 19px;
+    margin: 0px 45px;  
+    line-height: 1.75;
+}
+
+#video video {
+    max-width: 800px; 
+    margin: 0px 45px; 
+}
+/* End About me*/
+
+/* Projects*/
+#projects{
+    background-color: #18303D;
+}
+
+#projects h1{
+    font-size: 4.5rem;  
+    color: white;   
+    font-family: cursive;
+    text-align: center;
+    background-color: #03A66A;
+    padding: 15px;
+}
+
+#project1 h2{
+    font-size: 3rem;  
+    color: white;   
+    font-family: cursive;
+    text-align: center;
+    padding: 15px;
+}
+
+#project1 p{
+    color:white;
+    font-size: 19px;
+    margin: 0px 45px;  
+    line-height: 1.75;
+}
+
+#project2 h2{
+    font-size: 3rem;  
+    color: white;   
+    font-family: cursive;
+    text-align: center;
+    padding: 15px;
+}
+
+#project2 p{
+    color:white;
+    font-size: 19px;
+    margin: 0px 45px;  
+    line-height: 1.75;
+}
+
+#project3 h2{
+    font-size: 3rem;  
+    color: white;   
+    font-family: cursive;
+    text-align: center;
+    padding: 15px;
+}
+
+#project3 p{
+    color:white;
+    font-size: 19px;
+    margin: 0px 45px;  
+    line-height: 1.75;
+}
+/* End Projects*/
+
+/* Contact me*/
+#contact-me{
+    background-color: #18303D;
+    color:white;
+    text-align: center;
+}
+#contact-me h1{
+    font-size: 4.5rem;     
+    font-family: cursive;
+    background-color: #03A66A;
+    padding: 15px;
+}
+form{
+    padding: 15px;
+}
+form label {
+    font-size: 19px;
+    color: white; 
+    margin-bottom: 8px;
+}
+form input[type="submit"] {
+    background-color: #03A66A; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+}
+/*End Contact me*/
+
+/* Footer*/
+#footer{
+    background-color: #18303D;
+    color:white;
+    text-align: center;
+}
+
+#footer h1{
+    font-size: 4.5rem;     
+    font-family: cursive;
+    background-color: #03A66A;
+    padding: 15px;
+}   
+
+#footer-content{
+    padding: 15px;
+}
+/* End Footer*/
