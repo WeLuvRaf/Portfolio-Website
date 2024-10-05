@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html { 
+    font-family: "Arial", sans-serif; 
+}
+
+/* Header section */
+#header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    top: 0;
+    left: 0; 
+    background-color: #18303D; 
+    position: fixed; 
+    width: 100%; 
+    z-index: 500; 
+    font-size: large;
+}
+/* End Header section */
+
+/* Home */
+#home{
+    background-image: url('imgs/Aurora.jpg');
+    background-size: cover; 
+    background-position: center; 
+    width: 100vw;
+    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+
+}
+    /* name */
+#name{
+    text-align: center;
+}
+#name h1 {
+    font-size: 5rem;  
+    color: #000000; 
+    margin: 25px 25px;  
+    font-family: cursive;
+}
+    /* End name */
+/* End Home */
