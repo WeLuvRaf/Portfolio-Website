@@ -1,10 +1,43 @@
 @media (max-width: 600px) {
-    body {
-        font-size: 14px;
-    }
-
-    .container {
-        width: 100%; 
-        padding: 10px;
-    }
+ 
+body {
+    font-size: 14px;
 }
+
+.container {
+    width: 100%;
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+.navList ul {
+    display: block;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 2rem;
+}
+
+#video video {
+    width: 100%;
+}
+
+#projects div {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form input, form textarea {
+    width: 100%;
+}
+
+footer {
+    font-size: 12px;
+}
+
+}
+

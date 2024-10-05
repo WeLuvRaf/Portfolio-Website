@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css"> 
-    <link rel="stylesheet" href="Viewports/mobile.css" media="screen and (max-width: 600px)">
-    <link rel="stylesheet" href="Viewports/tablet.css" media="screen and (min-width: 601px) and (max-width: 1024px)">
-    <link rel="stylesheet" href="Viewports/laptop.css" media="screen and (min-width: 1025px)">
+    <link rel="stylesheet" href="viewports/mobile.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="viewports/tablet.css" media="screen and (min-width: 601px) and (max-width: 1024px)">
+    <link rel="stylesheet" href="viewports/laptop.css" media="screen and (min-width: 1025px)">
     <title>Rafay's Portfolio</title>
 </head>
 
@@ -54,13 +54,13 @@
       <h2>2nd Year IT:Networking and IT Security Student</h2>
     <article id="Description">
       <p>Hi guys, my name is Rafay! I am a dedicated 2nd-year Information Technology student specializing in Networking and IT Security. With a strong foundation in networking, security, coding, and cloud technologies, I have developed proficiency in tools such as Cisco Packet Tracer, Kali Linux, Python, C++, and Microsoft Azure. My passion for technology drives me to continually expand my knowledge and skills in the field. Currently, I am focused on achieving key certifications, including the Microsoft Azure Fundamentals and CCNA, to deepen my expertise and prepare for a career in cloud computing. My goal is to break into the industry as a solutions architect, where I can leverage my skills in cloud technologies to design efficient and scalable solutions for businesses. I am always eager to learn, collaborate, and contribute to innovative projects that push the boundaries of technology.</p>
-      <section id="video">
+      <div id="video">
         <video width="600" controls poster="imgs/P1.JPG">
             <source src="vids/Vid1.mp4" type="video/mp4">
             <source src="vids/Vid1.ogg" type="video/ogg">
             Your browser does not support the video tag.
         </video>
-      </section>    
+      </div>    
     </article>
   </section>
  <!-- End About Me-->
@@ -88,7 +88,7 @@
  <!-- Contact Me-->
     <div id="contact-me">
         <h1>Let's Stay in Touch</h1>
-        <form action="mailto:rafay.khan1@ontariotechu.net" method="post" enctype="text/plain" class="phpEmailForm">
+        <form action="mailto:rafay.khan1@ontariotechu.net" method="post" enctype="text/plain">
           <p>
             <label for="fullName">Name:</label>
             <input type="text" id="fullName" name="Name" placeholder="Your Full Name" required>
